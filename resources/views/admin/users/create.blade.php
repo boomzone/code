@@ -6,7 +6,7 @@
     <h1>Create Users</h1>
 
     {!! Form::open(['method'=>'POST', 'action'=>'AdminUsersController@store','files'=>true]) !!}
-    {{csrf_field()}}
+    {!!csrf_field()!!}
     
     
     <div class='form-group'>
